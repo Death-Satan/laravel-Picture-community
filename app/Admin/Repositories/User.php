@@ -2,10 +2,10 @@
 
 namespace App\Admin\Repositories;
 
-use App\Models\FailedJob as Model;
+use App\Models\User as Model;
 use Dcat\Admin\Repositories\EloquentRepository;
 
-class FailedJob extends EloquentRepository
+class User extends EloquentRepository
 {
     /**
      * Model.

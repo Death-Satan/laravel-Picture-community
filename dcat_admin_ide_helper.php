@@ -44,7 +44,8 @@ namespace Dcat\Admin {
      * @property Grid\Column|Collection failed_at
      * @property Grid\Column|Collection email
      * @property Grid\Column|Collection token
-     * @property Grid\Column|Collection email_verified_at
+     * @property Grid\Column|Collection env_key
+     * @property Grid\Column|Collection env_value
      *
      * @method Grid\Column|Collection id(string $label = null)
      * @method Grid\Column|Collection name(string $label = null)
@@ -79,7 +80,8 @@ namespace Dcat\Admin {
      * @method Grid\Column|Collection failed_at(string $label = null)
      * @method Grid\Column|Collection email(string $label = null)
      * @method Grid\Column|Collection token(string $label = null)
-     * @method Grid\Column|Collection email_verified_at(string $label = null)
+     * @method Grid\Column|Collection env_key(string $label = null)
+     * @method Grid\Column|Collection env_value(string $label = null)
      */
     class Grid {}
 
@@ -119,7 +121,8 @@ namespace Dcat\Admin {
      * @property Show\Field|Collection failed_at
      * @property Show\Field|Collection email
      * @property Show\Field|Collection token
-     * @property Show\Field|Collection email_verified_at
+     * @property Show\Field|Collection env_key
+     * @property Show\Field|Collection env_value
      *
      * @method Show\Field|Collection id(string $label = null)
      * @method Show\Field|Collection name(string $label = null)
@@ -154,7 +157,8 @@ namespace Dcat\Admin {
      * @method Show\Field|Collection failed_at(string $label = null)
      * @method Show\Field|Collection email(string $label = null)
      * @method Show\Field|Collection token(string $label = null)
-     * @method Show\Field|Collection email_verified_at(string $label = null)
+     * @method Show\Field|Collection env_key(string $label = null)
+     * @method Show\Field|Collection env_value(string $label = null)
      */
     class Show {}
 
