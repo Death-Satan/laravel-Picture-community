@@ -42,10 +42,19 @@ namespace Dcat\Admin {
      * @property Grid\Column|Collection payload
      * @property Grid\Column|Collection exception
      * @property Grid\Column|Collection failed_at
+     * @property Grid\Column|Collection base_url
+     * @property Grid\Column|Collection tag_id
+     * @property Grid\Column|Collection img_id
      * @property Grid\Column|Collection email
      * @property Grid\Column|Collection token
+     * @property Grid\Column|Collection contents
      * @property Grid\Column|Collection env_key
      * @property Grid\Column|Collection env_value
+     * @property Grid\Column|Collection is_follow
+     * @property Grid\Column|Collection nickname
+     * @property Grid\Column|Collection salt
+     * @property Grid\Column|Collection phone
+     * @property Grid\Column|Collection is_lock
      *
      * @method Grid\Column|Collection id(string $label = null)
      * @method Grid\Column|Collection name(string $label = null)
@@ -78,10 +87,19 @@ namespace Dcat\Admin {
      * @method Grid\Column|Collection payload(string $label = null)
      * @method Grid\Column|Collection exception(string $label = null)
      * @method Grid\Column|Collection failed_at(string $label = null)
+     * @method Grid\Column|Collection base_url(string $label = null)
+     * @method Grid\Column|Collection tag_id(string $label = null)
+     * @method Grid\Column|Collection img_id(string $label = null)
      * @method Grid\Column|Collection email(string $label = null)
      * @method Grid\Column|Collection token(string $label = null)
+     * @method Grid\Column|Collection contents(string $label = null)
      * @method Grid\Column|Collection env_key(string $label = null)
      * @method Grid\Column|Collection env_value(string $label = null)
+     * @method Grid\Column|Collection is_follow(string $label = null)
+     * @method Grid\Column|Collection nickname(string $label = null)
+     * @method Grid\Column|Collection salt(string $label = null)
+     * @method Grid\Column|Collection phone(string $label = null)
+     * @method Grid\Column|Collection is_lock(string $label = null)
      */
     class Grid {}
 
@@ -119,10 +137,19 @@ namespace Dcat\Admin {
      * @property Show\Field|Collection payload
      * @property Show\Field|Collection exception
      * @property Show\Field|Collection failed_at
+     * @property Show\Field|Collection base_url
+     * @property Show\Field|Collection tag_id
+     * @property Show\Field|Collection img_id
      * @property Show\Field|Collection email
      * @property Show\Field|Collection token
+     * @property Show\Field|Collection contents
      * @property Show\Field|Collection env_key
      * @property Show\Field|Collection env_value
+     * @property Show\Field|Collection is_follow
+     * @property Show\Field|Collection nickname
+     * @property Show\Field|Collection salt
+     * @property Show\Field|Collection phone
+     * @property Show\Field|Collection is_lock
      *
      * @method Show\Field|Collection id(string $label = null)
      * @method Show\Field|Collection name(string $label = null)
@@ -155,10 +182,19 @@ namespace Dcat\Admin {
      * @method Show\Field|Collection payload(string $label = null)
      * @method Show\Field|Collection exception(string $label = null)
      * @method Show\Field|Collection failed_at(string $label = null)
+     * @method Show\Field|Collection base_url(string $label = null)
+     * @method Show\Field|Collection tag_id(string $label = null)
+     * @method Show\Field|Collection img_id(string $label = null)
      * @method Show\Field|Collection email(string $label = null)
      * @method Show\Field|Collection token(string $label = null)
+     * @method Show\Field|Collection contents(string $label = null)
      * @method Show\Field|Collection env_key(string $label = null)
      * @method Show\Field|Collection env_value(string $label = null)
+     * @method Show\Field|Collection is_follow(string $label = null)
+     * @method Show\Field|Collection nickname(string $label = null)
+     * @method Show\Field|Collection salt(string $label = null)
+     * @method Show\Field|Collection phone(string $label = null)
+     * @method Show\Field|Collection is_lock(string $label = null)
      */
     class Show {}
 
