@@ -5,11 +5,17 @@ namespace App\Admin\Controllers;
 use App\Admin\Repositories\Tag;
 use Dcat\Admin\Form;
 use Dcat\Admin\Grid;
+use Dcat\Admin\Satan\Admin\Log\Http\Middleware\LogOperation;
 use Dcat\Admin\Show;
 use Dcat\Admin\Http\Controllers\AdminController;
 
 class TagController extends AdminController
 {
+    public function __construct()
+    {
+        $this->middleware(LogOperation::class);
+    }
+
     /**
      * Make a grid builder.
      *

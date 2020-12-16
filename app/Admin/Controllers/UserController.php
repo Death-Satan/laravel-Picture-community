@@ -33,6 +33,7 @@ class UserController extends AdminController
             $grid->column('is_lock')->switch();
             $grid->column('created_at');
             $grid->column('updated_at')->sortable();
+
             $grid->disableCreateButton();
             $grid->disableEditButton();
             $grid->showColumnSelector();

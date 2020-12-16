@@ -14,4 +14,5 @@ Route::group([
     $router->get('/', 'HomeController@index');
     $router->resource('/user','UserController');
     $router->resource('/tag','TagController');
+    $router->resource('/img','ImgController');
 });

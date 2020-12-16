@@ -113,6 +113,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/death_satan/dcat-env" />
+      <path value="$PROJECT_DIR$/vendor/death_satan/dcat-admin-log" />
     </include_path>
   </component>
   <component name="PhpUnit">

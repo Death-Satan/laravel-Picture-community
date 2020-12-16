@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.2.5|^8.0",
         "dcat/laravel-admin": "2.*",
+        "death_satan/dcat-admin-log": "dev-main",
         "death_satan/dcat-env": "dev-main",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",

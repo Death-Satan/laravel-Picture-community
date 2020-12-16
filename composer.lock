@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7f093e59344f8f2e48b41a39898079d",
+    "content-hash": "f05cebb2e18846edc83f99dbefbf59dc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -193,6 +193,62 @@
                 "laravel admin"
             ],
             "time": "2020-12-06T16:18:46+00:00"
+        },
+        {
+            "name": "death_satan/dcat-admin-log",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Death-Satan/dcat-admin-log.git",
+                "reference": "91f70859c3b7fdaea6cdc5aaf5ffc8f159edf415"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Death-Satan/dcat-admin-log/zipball/91f70859c3b7fdaea6cdc5aaf5ffc8f159edf415",
+                "reference": "91f70859c3b7fdaea6cdc5aaf5ffc8f159edf415",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "dcat/laravel-admin": "~2.0",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "dcat-admin": "Dcat\\Admin\\Satan\\Admin\\Log\\DcatAdminLogServiceProvider",
+                "laravel": {
+                    "providers": [
+                        "Dcat\\Admin\\Satan\\Admin\\Log\\DcatAdminLogServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dcat\\Admin\\Satan\\Admin\\Log\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "death-satan",
+                    "email": "2771717608@qq.com"
+                }
+            ],
+            "description": "dcat-admin extend log zh:dcat-admin扩展、侵入式后台日志扩展",
+            "homepage": "https://github.com/death_satan/dcat-admin-log",
+            "keywords": [
+                "dcat-admin",
+                "extension"
+            ],
+            "time": "2020-12-15T09:27:00+00:00"
         },
         {
             "name": "death_satan/dcat-env",
@@ -8030,6 +8086,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "death_satan/dcat-admin-log": 20,
         "death_satan/dcat-env": 20
     },
     "prefer-stable": true,
